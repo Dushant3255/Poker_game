@@ -6,7 +6,7 @@ Utility to inspect saved CFR state from cfr_state.pkl.
 import pickle
 from pprint import pprint
 
-def read_cfr_state(filename="cfr_state.pkl", top_n=10):
+def read_cfr_state(filename="Poker_game/cfr_state.pkl", top_n=10):
     try:
         with open(filename, "rb") as f:
             data = pickle.load(f)
