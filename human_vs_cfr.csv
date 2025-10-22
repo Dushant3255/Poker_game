@@ -1,2 +1,2 @@
 HandID,Board,Winner,WinType,Pot,human_Hole,bot_Hole,human_Bucket,bot_Bucket,human_Action,bot_Action,human_Delta,bot_Delta,PlayerCategory,BluffDetected
-1,8♣2♠Q♦8♠6♣,human,showdown,40,6♦3♣,3♦2♥,63o,32o,call,,20,-20,,No
+1,J♣6♥7♣A♠K♠,human,showdown,120,9♠8♥,5♣2♦,98o,52o,call,,60,-60,,No
