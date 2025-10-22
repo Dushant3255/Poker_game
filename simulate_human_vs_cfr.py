@@ -259,7 +259,7 @@ def play_hand(game, cfr: CFRBot, tracker: AggressionTracker, hand_id: int, write
     cfr.update(b_bucket, opp.stack - 1000)
 
 # ---------- Driver ----------
-def run(hands=20, outfile="Poker_game/human_vs_cfr.csv", seed=None, state_file="cfr_state.pkl"):
+def run(hands=20, outfile="human_vs_cfr.csv", seed=None, state_file="cfr_state.pkl"):
     if seed is None: seed = int(time.time())
     random.seed(seed)
     trainer = HoldemCFR(state_file)

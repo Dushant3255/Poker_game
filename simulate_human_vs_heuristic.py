@@ -253,7 +253,7 @@ def play_hand(game, bot: HeuristicBot, tracker: AggressionTracker, hand_id: int,
     write_row(writer, hand_id, compact(game.board), "|".join(winners), win_type, game, human, opp, h_bucket, b_bucket, tracker, hand_summary)
 
 # ---------- Driver ----------
-def run(hands=20, outfile="Poker_game/human_vs_heuristic.csv", seed=None):
+def run(hands=20, outfile="human_vs_heuristic.csv", seed=None):
     if seed is None: seed = int(time.time())
     random.seed(seed)
     game = TexasHoldemGame(["human","h_bot"], blinds=(10,20))

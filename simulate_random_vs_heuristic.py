@@ -131,7 +131,7 @@ def simulate_hand(game, h_bot, r_bot, hand_id):
     return row, winners
 
 # ---------- Driver ----------
-def run_sim(hands=10000, outfile="Poker_game/results_random_vs_heuristic.csv", seed=None):
+def run_sim(hands=10000, outfile="results_random_vs_heuristic.csv", seed=None):
     if seed is None:
         seed = int(time.time())
     random.seed(seed)
